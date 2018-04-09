@@ -12,7 +12,7 @@ This file provides documentation on how to use the included prefabs and scripts.
 - [Map Handle](#map-handle-maphandle)
 - [Formula](#formula-formula)
 - [Hazard Configuration](#hazard-configuration-hazardconfiguration)
-- [Device Hazard Manager](device-hazard-manager-devicehazardmanager)
+- [Device Hazard Manager](#device-hazard-manager-devicehazardmanager)
 - [Energy Device](#energy-device-energydevice)
 - [Energy Device Slot](#energy-device-slot-energydeviceslot)
 - [Energy Accumulator](#energy-accumulator-energyaccumulator)
@@ -55,7 +55,7 @@ Defines a type for an [Energy Device](#energy-device-energydevice) used in energ
 ### Inspector parameters
 - **Description:** Description to be displayed for this Energy Device Type.
 - **Enabled:** Are these devices in use.
-- **Model:** The prefab associated with this device type. Used by e.g. [Device Hazard Manager](device-hazard-manager-devicehazardmanager) to spawn devices.
+- **Model:** The prefab associated with this device type. Used by e.g. [Device Hazard Manager](#device-hazard-manager-devicehazardmanager) to spawn devices.
 - **Size:** The size of the device. The visual size is **not** automatically affected by this. Effect output is usually multiplied by size. (Formulas can override this logic).
 - **Require Slot:** Does this device require to be in a slot to be active.
 - **Max Received Effects:** Maximum number of effects this device can receive.
@@ -225,7 +225,7 @@ The GetValue method calculates a change in value over a specified time period ba
 ## Hazard Configuration (HazardConfiguration)
 
 ### Overview
-Configuration data used by a [Device Hazard Manager](device-hazard-manager-devicehazardmanager).
+Configuration data used by a [Device Hazard Manager](#device-hazard-manager-devicehazardmanager).
 
 ### Inspector parameters
 - **Hazards Enabled:** Is hazard spawning enabled.
@@ -241,7 +241,7 @@ Configuration data used by a [Device Hazard Manager](device-hazard-manager-devic
 ### Usage
 1. Create a new Hazard Configuration -asset from Assets/Create menu: `Soludus/Hazard Configuration`.
 2. Assign it to the `Hazards`-field of a [Map Configuration](#map-configuration-mapconfiguration).
-3. Make sure a [Device Hazard Manager](device-hazard-manager-devicehazardmanager) has been added to the scene.
+3. Make sure a [Device Hazard Manager](#device-hazard-manager-devicehazardmanager) has been added to the scene.
 
 ---
 
@@ -383,7 +383,7 @@ The TryAddToFirstAvailablePosition method tries to find an available position fo
 
 ### Usage
 1. Use GameObject/Create menu: `Soludus/Energy Device Slot`.
-2. The `Energy Device Slot Shared Set Item` -component is used to automatically add the Energy Device Slot to the Shared Set of slots. This is used by [Device Hazard Manager](device-hazard-manager-devicehazardmanager).
+2. The `Energy Device Slot Shared Set Item` -component is used to automatically add the Energy Device Slot to the Shared Set of slots. This is used by [Device Hazard Manager](#device-hazard-manager-devicehazardmanager).
 3. Set the `Accepted Type` in the inspector.
 4. If you want to pre-add devices to the slot, make them children of the slot object.
 
