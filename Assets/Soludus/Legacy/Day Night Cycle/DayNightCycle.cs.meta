@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b459cc19ba5fa334596d3d02ebe864ce
+timeCreated: 1504875387
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_directionalLight: {instanceID: 0}
+  - m_proceduralSkybox: {fileID: 2100000, guid: 04edb89700325cd45b50fa74e59bfbeb,
+      type: 2}
+  - reflectionProbe: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

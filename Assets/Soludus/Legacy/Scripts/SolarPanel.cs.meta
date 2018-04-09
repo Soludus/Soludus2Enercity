@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a8494603d63d6c84184b75b45f90564c
+timeCreated: 1505468628
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_inactiveMaterial: {fileID: 2100000, guid: 14c18f0459bef7148b6f215c77aa9ac2,
+      type: 2}
+  - m_normalMaterial: {fileID: 2100000, guid: 6bd705a7d1b29b243bb0ccf3e2a9a6f3, type: 2}
+  - m_shadowedMaterial: {fileID: 2100000, guid: bad013e32c4ec894fa15d0c805819c76,
+      type: 2}
+  - m_gameManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
