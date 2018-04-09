@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83f312c51f61904eafffff3c9bdcd55, type: 3}
+  m_Name: Map 01 Hazards
+  m_EditorClassIdentifier: 
+  hazardsEnabled: 1
+  maxHazardCount: 6
+  targetCooldown: 20
+  spawnSpeedScale: 1
+  spawnIntervalRange: {x: 5, y: 20}
+  spawnedHazards:
+  - type: {fileID: 11400000, guid: d8df4aa07819c564cbf22aa645c3b6d2, type: 2}
+    chance: 1
+    maxCount: 3
+  - type: {fileID: 11400000, guid: f6695dfba098d57419aca0885d3d2b5e, type: 2}
+    chance: 0.6
+    maxCount: 2

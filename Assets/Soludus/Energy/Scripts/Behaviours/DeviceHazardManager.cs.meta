@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7def7ea8ceaa2304ab43d6e0e85609b9
+timeCreated: 1523018656
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_mapHandle: {fileID: 11400000, guid: aa2d91af81a68f141915dfb8ade06fc4, type: 2}
+  - m_deviceSlots: {fileID: 11400000, guid: aea96ce7a5b7bbc45846cb7c09bfaa81, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

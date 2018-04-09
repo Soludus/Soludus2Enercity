@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bda49639cd3b5b4fabbc99c1f5b70ec, type: 3}
+  m_Name: Solar Panel
+  m_EditorClassIdentifier: 
+  description: 
+  m_enabled: 1
+  model: {fileID: 0}
+  size: 1
+  requireSlot: 1
+  maxReceivedEffects: 1
+  energyEffects:
+  - outputTo: {fileID: 11400000, guid: d3a0e758024838d47b89dcf34ebf7354, type: 2}
+    magnitude: 1
+    energyFormula: {fileID: 11400000, guid: a24188b7c1d306040811cc82abc86fa6, type: 2}
+    efficiency: 0.15
+    tryUseTargetAccumulators: 1
+  deviceEffects: []

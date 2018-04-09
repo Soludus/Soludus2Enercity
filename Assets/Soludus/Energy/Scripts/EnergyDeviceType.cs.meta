@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9bda49639cd3b5b4fabbc99c1f5b70ec
+timeCreated: 1518593102
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - model: {instanceID: 0}
+  - location: {instanceID: 0}
+  - energyFormula: {fileID: 11400000, guid: 07c62c4f5bd2eac4e9f8ff3403fcc179, type: 2}
+  - energyValue: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
