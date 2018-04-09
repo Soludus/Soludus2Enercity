@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 4f4ec47d8f794624b9f65f86827df7bb
+timeCreated: 1521129819
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: prop_Seagull:Beak_End
+    100004: prop_Seagull:GEO
+    100006: prop_Seagull:geo_Body
+    100008: prop_Seagull:geo_Eye_L
+    100010: prop_Seagull:geo_Eye_R
+    100012: prop_Seagull:jnt_Beak
+    100014: prop_Seagull:jnt_Eye_L
+    100016: prop_Seagull:jnt_Eye_L_End
+    100018: prop_Seagull:jnt_Eye_R
+    100020: prop_Seagull:jnt_Eye_R_End
+    100022: prop_Seagull:jnt_Root
+    100024: prop_Seagull:jnt_Tail
+    100026: prop_Seagull:jnt_Tail_End
+    100028: prop_Seagull:jnt_Wing_L_1
+    100030: prop_Seagull:jnt_Wing_L_2
+    100032: prop_Seagull:jnt_Wing_L_End
+    100034: prop_Seagull:jnt_Wing_R_1
+    100036: prop_Seagull:jnt_Wing_R_2
+    100038: prop_Seagull:jnt_Wing_R_End
+    100040: prop_Seagull:JOINTS
+    400000: //RootNode
+    400002: prop_Seagull:Beak_End
+    400004: prop_Seagull:GEO
+    400006: prop_Seagull:geo_Body
+    400008: prop_Seagull:geo_Eye_L
+    400010: prop_Seagull:geo_Eye_R
+    400012: prop_Seagull:jnt_Beak
+    400014: prop_Seagull:jnt_Eye_L
+    400016: prop_Seagull:jnt_Eye_L_End
+    400018: prop_Seagull:jnt_Eye_R
+    400020: prop_Seagull:jnt_Eye_R_End
+    400022: prop_Seagull:jnt_Root
+    400024: prop_Seagull:jnt_Tail
+    400026: prop_Seagull:jnt_Tail_End
+    400028: prop_Seagull:jnt_Wing_L_1
+    400030: prop_Seagull:jnt_Wing_L_2
+    400032: prop_Seagull:jnt_Wing_L_End
+    400034: prop_Seagull:jnt_Wing_R_1
+    400036: prop_Seagull:jnt_Wing_R_2
+    400038: prop_Seagull:jnt_Wing_R_End
+    400040: prop_Seagull:JOINTS
+    4300000: prop_Seagull:geo_Body
+    4300002: prop_Seagull:geo_Eye_R
+    4300004: prop_Seagull:geo_Eye_L
+    7400000: anim_Seagull_fly
+    9500000: //RootNode
+    13700000: prop_Seagull:geo_Body
+    13700002: prop_Seagull:geo_Eye_L
+    13700004: prop_Seagull:geo_Eye_R
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim_Seagull_fly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.5286738
+        functionName: OnAnimationEvent
+        data: Flap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

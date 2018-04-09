@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 0bf163b79603750499ac9de16654c747
+timeCreated: 1511773847
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cliffs
+    100002: Cliffs 1
+    100004: Cliffs 2
+    100006: Land01
+    100008: Land02
+    100010: Land03
+    100012: //RootNode
+    100014: Rock01
+    100016: Rock010
+    100018: Rock011
+    100020: Rock012
+    100022: Rock013
+    100024: Rock015
+    100026: Rock02
+    100028: Rock03
+    100030: Rock04
+    100032: Rock05
+    100034: Rock06
+    100036: Rock07
+    100038: Rock08
+    100040: Rock09
+    100042: Rocks1
+    100044: Surface
+    100046: Surface 1
+    100048: Surface 2
+    400000: Cliffs
+    400002: Cliffs 1
+    400004: Cliffs 2
+    400006: Land01
+    400008: Land02
+    400010: Land03
+    400012: //RootNode
+    400014: Rock01
+    400016: Rock010
+    400018: Rock011
+    400020: Rock012
+    400022: Rock013
+    400024: Rock015
+    400026: Rock02
+    400028: Rock03
+    400030: Rock04
+    400032: Rock05
+    400034: Rock06
+    400036: Rock07
+    400038: Rock08
+    400040: Rock09
+    400042: Rocks1
+    400044: Surface
+    400046: Surface 1
+    400048: Surface 2
+    2300000: Cliffs
+    2300002: Cliffs 1
+    2300004: Cliffs 2
+    2300006: Rock01
+    2300008: Rock010
+    2300010: Rock011
+    2300012: Rock012
+    2300014: Rock013
+    2300016: Rock015
+    2300018: Rock02
+    2300020: Rock03
+    2300022: Rock04
+    2300024: Rock05
+    2300026: Rock06
+    2300028: Rock07
+    2300030: Rock08
+    2300032: Rock09
+    2300034: Surface
+    2300036: Surface 1
+    2300038: Surface 2
+    3300000: Cliffs
+    3300002: Cliffs 1
+    3300004: Cliffs 2
+    3300006: Rock01
+    3300008: Rock010
+    3300010: Rock011
+    3300012: Rock012
+    3300014: Rock013
+    3300016: Rock015
+    3300018: Rock02
+    3300020: Rock03
+    3300022: Rock04
+    3300024: Rock05
+    3300026: Rock06
+    3300028: Rock07
+    3300030: Rock08
+    3300032: Rock09
+    3300034: Surface
+    3300036: Surface 1
+    3300038: Surface 2
+    4300000: Surface
+    4300002: Cliffs
+    4300004: Surface
+    4300006: Cliffs
+    4300008: Surface
+    4300010: Cliffs
+    4300012: Rock01
+    4300014: Rock02
+    4300016: Rock03
+    4300018: Rock04
+    4300020: Rock05
+    4300022: Rock06
+    4300024: Rock07
+    4300026: Rock08
+    4300028: Rock09
+    4300030: Rock010
+    4300032: Rock011
+    4300034: Rock012
+    4300036: Rock013
+    4300038: Rock015
+    6400000: Cliffs
+    6400002: Cliffs 1
+    6400004: Cliffs 2
+    6400006: Rock01
+    6400008: Rock010
+    6400010: Rock011
+    6400012: Rock012
+    6400014: Rock013
+    6400016: Rock015
+    6400018: Rock02
+    6400020: Rock03
+    6400022: Rock04
+    6400024: Rock05
+    6400026: Rock06
+    6400028: Rock07
+    6400030: Rock08
+    6400032: Rock09
+    6400034: Surface
+    6400036: Surface 1
+    6400038: Surface 2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levels_Cliffs_mat
+    second: {fileID: 2100000, guid: 81ddf920066b4f44385ec3e3ba017a28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levels_GroundGrass_mat
+    second: {fileID: 2100000, guid: 15cc264d807f5a648be6f5de4c0e3e57, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

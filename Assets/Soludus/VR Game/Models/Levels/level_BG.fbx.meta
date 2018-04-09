@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 5d66c093327d5d9449226e8eed25ceef
+timeCreated: 1520419795
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Cliffs
+    100002: Cliffs 1
+    100004: Cliffs 2
+    100006: Cliffs 3
+    100008: Land01
+    100010: Land02
+    100012: Land03
+    100014: Land04
+    100016: //RootNode
+    100018: Surface
+    100020: Surface 1
+    100022: Surface 2
+    100024: Surface 3
+    100026: underwater
+    400000: Cliffs
+    400002: Cliffs 1
+    400004: Cliffs 2
+    400006: Cliffs 3
+    400008: Land01
+    400010: Land02
+    400012: Land03
+    400014: Land04
+    400016: //RootNode
+    400018: Surface
+    400020: Surface 1
+    400022: Surface 2
+    400024: Surface 3
+    400026: underwater
+    2300000: Cliffs
+    2300002: Cliffs 1
+    2300004: Cliffs 2
+    2300006: Cliffs 3
+    2300008: Surface
+    2300010: Surface 1
+    2300012: Surface 2
+    2300014: Surface 3
+    2300016: underwater
+    3300000: Cliffs
+    3300002: Cliffs 1
+    3300004: Cliffs 2
+    3300006: Cliffs 3
+    3300008: Surface
+    3300010: Surface 1
+    3300012: Surface 2
+    3300014: Surface 3
+    3300016: underwater
+    4300000: Surface
+    4300002: Cliffs
+    4300004: Surface
+    4300006: Cliffs
+    4300008: Surface
+    4300010: Cliffs
+    4300012: Surface
+    4300014: Cliffs
+    4300016: underwater
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
