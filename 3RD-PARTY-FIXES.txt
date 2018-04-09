@@ -1,0 +1,64 @@
+
+
+VRTK_SnapDropZone.ForceSnap not working. CRITICAL FOR THE GAME!
+-------------------------------
+VRTK/Prefabs/Resources/Scripts/VRTK_SnapDropZone.cs
+VRTK_SnapDropZone.AttemptForceSnap() on row 682
+AddCurrentValidSnapObject(objectToSnap.GetComponentInChildren<Collider>().gameObject);
+
+Transform lerping interrupted by VRTK_SnapDropZone
+-------------------------------
+VRTK/Prefabs/Resources/Scripts/VRTK_SnapDropZone.cs
+VRTK_SnapDropZone.UpdateTransformDimensions()
+Only set ioTransform.localScale when applyScalingOnSnap == true
+
+Pointer visually lagging
+-------------------------------
+VRTK/Scripts/Pointers/PointerRenderers/VRTK_StraightPointerRenderer.cs
+VRTK_StraightPointerRenderer.SetPointerAppearance() on row 219
+Transform origin = GetOrigin(false);
+
+VRTK/Scripts/Pointers/VRTK_Pointer.cs
+changed Update() to LateUpdate() on row 312
+
+
+
+SteamVR poses are updated at unwanted time
+-------------------------------
+SteamVR/Scripts/SteamVR_Render.cs
+SteamVR_Render.RenderLoop() on row 150 and SteamVR_Render.OnBeforeRender() on row 339
+Moved "UpdatePoses()" from OnBeforeRender() to RenderLoop() after "yield return waitForEndOfFrame;"
+
+
+
+UnityStandardAssets.Water.PlanarReflection creates unwanted objects
+-------------------------------
+Standard Assets/Environment/Water/Scripts/PlanarReflection.cs
+Add to OnDisable():
+if (m_ReflectionCamera != null)
+    DestroyImmediate(m_ReflectionCamera.gameObject);
+
+Replace in CreateReflectionCameraFor():
+- go = new GameObject(reflName, typeof(Camera));
++ go = new GameObject(reflName, typeof(Camera)) { hideFlags = HideFlags.HideAndDontSave };
+
+
+
+Importing "Water Effect Fits For Lowpoly Style" causes build to fail.
+-------------------------------
+HolyShift/Scripts/CheckForStandardAssets.cs
+Remove or replace with following:
+using UnityEngine;
+
+[ExecuteInEditMode]
+public class CheckForStandardAssets : MonoBehaviour
+{
+#if UNITY_EDITOR
+    private void Awake()
+    {
+        var guids = UnityEditor.AssetDatabase.FindAssets("FXWater4Advanced", null);
+        Debug.Assert(guids.Length > 0, "Please add Unity's Standard Assets to make water works! https://www.assetstore.unity3d.com/en/#!/content/32351");
+    }
+#endif
+}
+

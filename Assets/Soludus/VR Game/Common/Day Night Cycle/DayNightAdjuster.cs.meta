@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 029a5428703711f43ba1d54f22ae0e7a
+timeCreated: 1520453015
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_waterMaterial: {fileID: 2100000, guid: dba33a2bf8b23400bacf323fc2816a51, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
