@@ -11,7 +11,7 @@ A VR game that utilizes the platform.
 Content inside `Assets/Soludus/VR Game/`.  
 Many generic components are included that can be reused in different games.  
 Most game assets are included in this repository.  
-Audio assets are found in [FMOD Banks]. The `FMOD Banks` folder must be placed at the root of the Unity project.
+Audio assets are found here: [FMOD Banks]. The `FMOD Banks` folder must be placed at the root of the Unity project.
 
 ### Asset project sources
 
@@ -47,7 +47,7 @@ In addition, the CC0 1.0 Universal licence (CC0 1.0) applies to all files and th
 Content that belongs to the listed 3rd parties have their own respective licenses.
 
 
-[FMOD Banks]: https://drive.google.com/drive/folders/1sYHXvAd9n3JxAzQCSNVjanpYg5E8a7m4?usp=sharing
+[FMOD Banks]: https://drive.google.com/drive/folders/1ByeLB4aFF5ELa5IKbVRY_370Em85CWf4?usp=sharing
 [Link to Asset sources]: https://drive.google.com/drive/folders/1sYHXvAd9n3JxAzQCSNVjanpYg5E8a7m4?usp=sharing
 [VRTK]: https://vrtoolkit.readme.io/
 [SDKs supported by VRTK]: https://github.com/thestonefox/VRTK
